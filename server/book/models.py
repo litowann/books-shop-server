@@ -6,6 +6,3 @@ class Book(models.Model):
     pages = models.IntegerField()
     author = models.CharField(max_length=50)
     year = models.IntegerField()
-
-    def __str__(self):
-        return self.name
